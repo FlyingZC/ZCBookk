@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="用户名:"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_UserName"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="密    码:"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_password"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="登录"
+                android:id="@+id/btn_login"
+                android:background="@drawable/button"
+                android:textColor="#FFF"
+                android:layout_marginRight="40dp"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="取消"
+                android:id="@+id/btn_reset"
+                android:background="@drawable/button"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
